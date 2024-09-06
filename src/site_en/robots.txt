@@ -1,0 +1,4 @@
+Sitemap: https://oka-agency.com/sitemap.xml
+Crawl-delay: 10
+User-agent: *
+Allow: 

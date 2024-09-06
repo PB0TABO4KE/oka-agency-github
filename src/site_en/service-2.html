@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>OKA - A residence permit</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="title" content="" />
+  <meta name="description" content="" />
+  <link rel="stylesheet" href="./css/normalize.css" />
+  <link rel="stylesheet" href="./css/swiper.min.css" />
+  <link rel="stylesheet" href="./css/flatpickr.min.css" />
+  <link rel="stylesheet" href="./css/jquery.dropdown.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <!-- Yandex.Metrika counter -->
+  <script type="text/javascript">
+    (function (m, e, t, r, i, k, a) {
+      m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+      m[i].l = 1 * new Date();
+      for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } }
+      k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+    })
+      (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(98236694, "init", {
+      clickmap: true,
+      trackLinks: true,
+      accurateTrackBounce: true,
+      webvisor: true,
+      trackHash: true
+    });
+  </script>
+  <noscript>
+    <div><img src="https://mc.yandex.ru/watch/98236694" style="position:absolute; left:-9999px;" alt="" /></div>
+  </noscript>
+  <!-- /Yandex.Metrika counter -->
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-top">
+      <div class="container">
+        <div class="header__item header__item-dd">
+          <span class="header__item-link">About us</span>
+          <div class="header__item-dd-list">
+            <a class="header__item-dd-link" href="./about.html">About us</a>
+            <a class="header__item-dd-link" href="./media.html">Media about us</a>
+          </div>
+        </div>
+        <div class="header__item header__item-dd">
+          <span class="header__item-link">Services</span>
+          <div class="header__item-dd-list">
+            <a class="header__item-dd-link" href="./service-1.html">A temporary residence permit in the Russian
+              Federation</a>
+            <a class="header__item-dd-link active" href="./service-2.html">A residence permit</a>
+            <a class="header__item-dd-link" href="./service-3.html">Citizenship of the Russian Federation</a>
+            <a class="header__item-dd-link" href="./service-4.html">Simplified citizenship of the Russian Federation</a>
+            <a class="header__item-dd-link" href="./service-5.html">Compatriot resettlement program</a>
+            <a class="header__item-dd-link" href="./service-6.html">Customer service</a>
+          </div>
+        </div>
+        <div class="header__item">
+          <a class="header__item-link" href="./news.html">News</a>
+        </div>
+        <div class="header__logo">
+          <a class="header__logo-link" href="./">
+            <img src="./img/logo-new.svg" alt="" />
+          </a>
+        </div>
+        <div class="header__item">
+          <a class="header__item-link" href="./faq.html">FAQ</a>
+        </div>
+        <div class="header__item">
+          <a class="header__item-link" href="./contacts.html">Contacts</a>
+        </div>
+        <div class="header__item">
+          <a class="btn btn-blue btn-header" href="./request-form.html">Apply now</a>
+        </div>
+        <div class="header__menu">
+          <svg class="m-1" width="24" height="18" viewBox="0 0 24 18" xmlns="http://www.w3.org/2000/svg">
+            <rect width="24" height="2" rx="1" />
+            <rect y="16" width="24" height="2" rx="1" />
+            <rect y="8" width="24" height="2" rx="1" />
+          </svg>
+          <svg class="m-2" xmlns="http://www.w3.org/2000/svg" version="1.1" width="512" height="512" x="0" y="0"
+            viewBox="0 0 512.001 512.001">
+            <path
+              d="M284.286,256.002L506.143,34.144c7.811-7.811,7.811-20.475,0-28.285c-7.811-7.81-20.475-7.811-28.285,0L256,227.717    L34.143,5.859c-7.811-7.811-20.475-7.811-28.285,0c-7.81,7.811-7.811,20.475,0,28.285l221.857,221.857L5.858,477.859    c-7.811,7.811-7.811,20.475,0,28.285c3.905,3.905,9.024,5.857,14.143,5.857c5.119,0,10.237-1.952,14.143-5.857L256,284.287    l221.857,221.857c3.905,3.905,9.024,5.857,14.143,5.857s10.237-1.952,14.143-5.857c7.811-7.811,7.811-20.475,0-28.285 L284.286,256.002z"
+              data-original="#000000"></path>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div class="header-bottom">
+      <div class="container">
+        <div class="input-wrapper language">
+          <div class="select-language">
+            <div class="select-language-selected" rel="English" title="English">
+              <span>English</span>
+            </div>
+            <ul class="select-language-list">
+              <a href="https://oka-agency.com/">
+                <li rel="Russian" title="Russian">
+                  <span>Russian</span>
+                </li>
+              </a>
+              <a href="https://en.oka-agency.com/">
+                <li rel="English" title="English">
+                  <span>English</span>
+                </li>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="header-mobile">
+    <div class="container">
+      <div class="header__nav-item"><a href="./about.html">About us</a></div>
+      <div class="header__nav-item">
+        <a href="./media.html">Media about us</a>
+      </div>
+      <div class="header__nav-item">
+        <a href="./service-1.html">A temporary residence permit in the Russian Federation</a>
+      </div>
+      <div class="header__nav-item active">
+        <a href="./service-2.html">A residence permit</a>
+      </div>
+      <div class="header__nav-item">
+        <a href="./service-3.html">Citizenship of the Russian Federation</a>
+      </div>
+      <div class="header__nav-item">
+        <a href="./service-4.html">Simplified citizenship of the Russian Federation</a>
+      </div>
+      <div class="header__nav-item">
+        <a href="./service-5.html">Compatriot resettlement program</a>
+      </div>
+      <div class="header__nav-item">
+        <a href="./service-6.html">Customer service</a>
+      </div>
+      <div class="header__nav-item"><a href="./news.html">News</a></div>
+      <div class="header__nav-item"><a href="./faq.html">FAQ</a></div>
+      <div class="header__nav-item">
+        <a href="./contacts.html">Contacts</a>
+      </div>
+      <div class="header__nav-item">
+        <a class="btn btn-blue btn-header" href="./request-form.html">Apply now</a>
+      </div>
+    </div>
+  </div>
+
+  <main class="main">
+    <div class="breadcrumbs">
+      <div class="container">
+        <div class="breadcrumbs__list">
+          <a class="breadcrumbs__link" href="./">Home</a>
+          <span>
+            <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0.65686 1.34314L6.31371 6.99999L0.65686 12.6568" />
+            </svg>
+          </span>
+
+          <p class="breadcrumbs__link">A residence permit</p>
+        </div>
+      </div>
+    </div>
+
+    <section class="service-detail">
+      <div class="container">
+        <h1 class="title title-h1">A residence permit</h1>
+        <div class="service-detail__content">
+          <p>
+            A residence permit (RP) is a document that gives a foreigner the
+            right to permanently live in the Russian Federation, freely enter
+            and leave, work legally and enjoy the fundamental rights of a
+            citizen. For stateless persons, a residence permit also replaces
+            an identity card.
+          </p>
+          <br /><br />
+          <div class="service-detail__caption">
+            A foreign citizen who has received a residence permit has the
+            following rights:
+          </div>
+          <br />
+          <ol>
+            <li>
+              <span>01</span><span>Reside permanently within the territory of the Russian
+                Federation without any time constraints, regardless of the
+                specific subject of the Russian Federation where the residence
+                permit was initially issued.</span>
+            </li>
+            <li>
+              <span>02</span><span>Freely enter and exit the territory of the Russian
+                Federation.</span>
+            </li>
+            <li>
+              <span>03</span><span>Carry out labor activities on the territory of the Russian
+                Federation without a work permit or patent. In addition,
+                unlike foreign citizens with a TRP, citizens with a residence
+                permit are free to choose their place of work in the Russian
+                Federation, regardless of the subject of the Russian
+                Federation in which the residence permit was issued.</span>
+            </li>
+            <li>
+              <span>04</span><span>Enroll children in preschools and schools.</span>
+            </li>
+            <li>
+              <span>05</span><span>Receive free medical care within the framework of compulsory
+                medical insurance.</span>
+            </li>
+            <li>
+              <span>06</span><span>Receive a pension on the territory of the Russian
+                Federation.</span>
+            </li>
+          </ol>
+          <br /><br />
+          <div class="service-detail__caption">
+            A foreign citizen who has received a residence permit has the
+            following responsibilities:
+          </div>
+          <br />
+          <ol>
+            <li>
+              <span>01</span><span>Register at their place of residence in the Russian
+                Federation. Within 7 working days from the date of receipt of
+                a residence permit, a foreign citizen must submit an
+                application for registration at their place of residence to
+                the territorial body of the Ministry of Internal Affairs of
+                Russia at the location of the residential premises that he has
+                chosen as their place of residence on the territory of the
+                Russian Federation.</span>
+            </li>
+            <li>
+              <span>02</span><span>A foreign citizen permanently residing in the Russian
+                Federation is required to annually notify the territorial body
+                of the Ministry of Internal Affairs of Russia at the location
+                where the residence permit was obtained, confirming their
+                continued residence in the Russian Federation.</span>
+            </li>
+          </ol>
+          <br /><br />
+          <div class="service-detail__caption">
+            A foreign citizen who has received a residence permit has a number
+            of restrictions. They cannot:
+          </div>
+          <br />
+          <ol>
+            <li>
+              <span>01</span><span>Serve in the army upon conscription, even in civilian
+                positions, only under a contract.</span>
+            </li>
+            <li>
+              <span>02</span><span>Work in the municipal or civil service, in the security
+                agencies of the Russian Federation and in companies that
+                provide state security.</span>
+            </li>
+            <li><span>03</span><span>Be a civil aviation captain.</span></li>
+            <li>
+              <span>04</span><span>Serve on a warship or hold one of the positions as part of
+                the crew of a Russian civilian ship: captain, chief mate,
+                chief engineer, radio specialist.</span>
+            </li>
+            <li>
+              <span>05</span><span>Vote and be elected at the regional and federal levels.</span>
+            </li>
+            <li>
+              <span>06</span><span>Leave the Russian Federation for a total period of more than
+                six months during a calendar year, otherwise the residence
+                permit will be canceled. However, there are exceptions:
+                illness, death of relatives or business needs.</span>
+            </li>
+            <li>
+              <span>07</span><span>Visit closed areas: closed military camps, closed
+                administrative-territorial entities and institutions with
+                regulated visits for foreigners.</span>
+            </li>
+          </ol>
+          <br /><br />
+          <div class="service-detail__caption">
+            Сitizenship obtaining time
+          </div>
+          <br />
+          <p><b>01. General procedure for obtaining a residence permit</b></p>
+          <p>
+            The general procedure stipulates that after a person receives a
+            TRP and has lived in the Russian Federation for at least eight
+            months, he will have to submit documents for a residence permit at
+            least four months before the expiration date.
+          </p>
+          <br />
+          <p>
+            <b>02. Simplified procedure for obtaining a residence permit</b>
+          </p>
+          <p>
+            A simplified procedure allows you to obtain a residence permit
+            without a TRP and the need to live in the Russian Federation for
+            eight months.
+          </p>
+          <br /><br />
+          <div class="service-detail__caption">
+            The following people can apply for a simplified residence permit:
+          </div>
+          <br />
+          <ol>
+            <li>
+              <span>01</span><span>Children under 18 years of age who receive a residence permit
+                together with their parents, as well as children of foreigners
+                who already have a residence permit.</span>
+            </li>
+            <li>
+              <span>02</span><span>A foreigner who was born in the RSFSR and was a citizen of
+                the USSR.</span>
+            </li>
+            <li>
+              <span>03</span><span>Foreigners whose parents or children are Russian citizens
+                permanently residing in the country.</span>
+            </li>
+            <li>
+              <span>04</span><span>Highly qualified specialists or members of their
+                family.</span>
+            </li>
+            <li>
+              <span>05</span><span>Specialists who have worked for at least six months in the
+                Russian Federation in one of the professions from the list of
+                qualified specialists.</span>
+            </li>
+            <li>
+              <span>06</span><span>Foreigners who graduated from a Russian university full-time
+                and with honors received a red diploma.</span>
+            </li>
+            <li>
+              <span>07</span><span>An incapacitated person whose guardian is a Russian citizen
+                or a residence permit holder.</span>
+            </li>
+            <li>
+              <span>08</span><span>Participant in the state program for the voluntary
+                resettlement of compatriots.</span>
+            </li>
+            <li>
+              <span>09</span><span>A foreigner deported from the territory of the Crimean
+                Autonomous Soviet Socialist Republic, or his direct
+                relative.</span>
+            </li>
+            <li>
+              <span>10</span><span>A foreigner who has received political asylum.</span>
+            </li>
+            <li>
+              <span>11</span><span>A foreigner who has renounced Russian citizenship or in
+                respect of whom the decision on citizenship was
+                canceled.</span>
+            </li>
+            <li>
+              <span>12</span><span>A foreigner who reached the final or won the all-Russian
+                competition from the autonomous non-profit organization
+                “Russia is a Country of Opportunities”.</span>
+            </li>
+            <li>
+              <span>13</span><span>A foreigner, a specialist in the field of information
+                technology, who has entered into an agreement to work in this
+                area with an accredited Russian IT company. And also his
+                relatives.</span>
+            </li>
+            <li>
+              <span>14</span><span>A foreigner who invests in the Russian Federation, and
+                members of their family.</span>
+            </li>
+            <li>
+              <span>15</span><span>Citizens of Belarus, the Republic of Kazakhstan, the Republic
+                of Moldova or Ukraine.</span>
+            </li>
+          </ol>
+          <br /><br />
+          <div class="service-detail__caption">
+            The list of documents for obtaining a residence permit:
+          </div>
+          <br />
+          <ol>
+            <li>
+              <span>01</span><span>An application for obtaining a residence permit – 2
+                copies.</span>
+            </li>
+            <li>
+              <span>02</span><span>A receipt proving payment of state duty (5,000 rubles).</span>
+            </li>
+            <li>
+              <span>03</span><span>A passport which must be valid for at least 2-4 months.
+                Children will need a birth certificate.</span>
+            </li>
+            <li>
+              <span>04</span><span>Photos, color or black and white, 35 × 45 mm, without
+                retouching - 4 pcs.</span>
+            </li>
+            <li>
+              <span>05</span><span>A certificate of knowledge of the Russian language, history
+                and law. To obtain a certificate, you must pass a special exam
+                at an accredited educational institution from the list.
+                Usually these are located at migration centers. The fee for
+                the exam, costing about 5,000 rubles, is the responsibility of
+                the applicant. To submit, you will need a passport, its
+                notarized translation, a migration card and registration. The
+                certificate is valid for 5 years.</span>
+            </li>
+            <li>
+              <span>06</span><span>Medical certificates. Before submitting documents, the
+                applicant must undergo a medical examination, obtain a
+                certificate of health and a conclusion about the absence of
+                dangerous infections - leprosy, syphilis, tuberculosis, as
+                well as HIV and drug addiction. A medical examination may be
+                carried out only in institutions specially authorized for
+                this. To pass the medical examination, the applicant will need
+                a passport and a migration card. Certificates are valid for 3
+                months.</span>
+            </li>
+            <li>
+              <span>07</span><span>Confirmation of income. It is necessary to confirm solvency -
+                income not lower than the minimum wage - and legality of
+                income. For this purpose, income certificates, a bank account
+                statement, and a document confirming receipt of alimony are
+                suitable.</span>
+            </li>
+            <li>
+              <span>08</span><span>Documents for housing if you have been in the country for
+                more than three years: an extract from the Unified State
+                Register of Real Estate, if you own a property, a lease
+                agreement or permanent registration if you are renting.</span>
+            </li>
+          </ol>
+          <br />
+          <p>
+            When applying for a residence permit for children, they will need
+            the same documents as adults.
+          </p>
+          <br /><br />
+          <div class="service-detail__caption">Additional documents:</div>
+          <br />
+          <p>
+            Depending on your situation, additional documents may be required.
+          </p>
+          <br />
+          <ol>
+            <li>
+              <span>01</span><span>If you receive a residence permit according to a simplified
+                procedure - a migration card.</span>
+            </li>
+            <li>
+              <span>02</span><span>If you entered the Russian Federation on a visa - a clean
+                criminal record certificate, issued by the state of permanent
+                residence no earlier than three months on the date of
+                application. If a foreigner has been convicted, then a
+                document containing information about the crime for which the
+                applicant was convicted is required. Certificates must be
+                provided by all persons over 14 years of age.</span>
+            </li>
+            <li>
+              <span>03</span><span>If you changed your full name or personal data (date or place
+                of birth, citizenship), documents will be required that
+                confirm this.</span>
+            </li>
+            <li>
+              <span>04</span><span>For children over 14 years old, the consent of the child to
+                live in the Russian Federation is required.</span>
+            </li>
+            <li>
+              <span>05</span><span>For an incapacitated foreigner, there should be a document
+                confirming the incapacity or limited capabilities of a
+                foreigner, as well as confirmation of the powers of a guardian
+                or trustee.</span>
+            </li>
+            <li>
+              <span>06</span><span>For native speakers of Russian, there should be a document
+                confirming this status. In order to be recognized as a native
+                speaker of the Russian language, a foreigner must submit a
+                corresponding application to the Main Directorate for
+                Migration Affairs of the Ministry of Internal Affairs, after
+                which a commission will consider his case. If it decides to
+                recognize the applicant as a native speaker, the status will
+                be permanent.</span>
+            </li>
+            <li>
+              <span>07</span><span>For highly qualified specialists - an employment contract
+                with a Russian employer.</span>
+            </li>
+            <li>
+              <span>08</span><span>For those deported from the territory of the Crimean
+                Autonomous Soviet Socialist Republic - a certificate of
+                rehabilitation issued by the Ministry of Internal Affairs, the
+                prosecutor's office or the court of the Russian
+                Federation.</span>
+            </li>
+            <li>
+              <span>09</span><span>For people whose Russian citizenship has been terminated -
+                confirmation of citizenship of another country, or a
+                certificate of renunciation of Russian citizenship.</span>
+            </li>
+            <li>
+              <span>10</span><span>For those who have received political asylum - documents
+                confirming their status.</span>
+            </li>
+            <li>
+              <span>11</span><span>For family members of applicants, it is also necessary to
+                submit documents on the degree of relationship: birth or
+                marriage certificates, a document on guardianship or
+                adoption.</span>
+            </li>
+          </ol>
+          <br />
+          <p>
+            All documents in a foreign language must be translated into
+            Russian and notarized. Citizens of a number of countries must also
+            provide their consular legalization.
+          </p>
+          <br /><br />
+          <div class="service-detail__caption">
+            Validity period of residence permit
+          </div>
+          <br />
+          <p>
+            A residence permit is issued without limitation of validity
+            period, except for the following cases:
+          </p>
+          <br />
+          <ol>
+            <li>
+              <span>01</span><span>Issuance of a residence permit to a stateless person (issued
+                for a period of 10 years).</span>
+            </li>
+            <li>
+              <span>02</span><span>Issuance of a residence permit in the form of a card with
+                electronic media (issued for a period of 10 years).</span>
+            </li>
+            <li>
+              <span>03</span><span>Issuance of a residence permit without obtaining a TRP to a
+                highly qualified specialist and his family members (issued for
+                the duration of the work permit issued to the specified highly
+                qualified specialist).</span>
+            </li>
+          </ol>
+          <br />
+          <p>
+            In all cases, the residence permit must be changed at the age of
+            14, 20 and 45, as well as when the name is changed or the document
+            is damaged.
+          </p>
+          <br />
+          <p>
+            Holders of residence permits with an expiration date can exchange
+            them for an unlimited one. You will need to submit an application,
+            provide two photographs and pay a state fee of 5,000 rubles.
+          </p>
+          <br /><br />
+          <p><b>Confirmation of Residence Permit</b></p>
+          <br />
+          <p>
+            A mandatory condition for legal residence in the Russian
+            Federation with a residence permit is annual confirmation of
+            residence in the country.
+          </p>
+          <br />
+          <p>
+            Confirmation must be submitted once a year no later than 60 days
+            after the date of the last notification. If you do not submit a
+            notification on time, you may be fined up to 7,000 rubles or have
+            your residence permit revoked. The filing deadline may be extended
+            for a valid reason, such as illness.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__logo">
+        <a class="footer__logo-link" href="./">
+          <img src="./img/logo-new.svg" alt="" />
+        </a>
+      </div>
+      <div class="footer__nav">
+        <div class="footer__col">
+          <div class="footer__caption">Agency</div>
+          <a class="footer__link" href="./about.html">About us</a>
+          <a class="footer__link" href="./media.html">Media about us</a>
+          <a class="footer__link" href="./news.html">News</a>
+          <a class="footer__link" href="./faq.html">FAQ</a>
+        </div>
+        <div class="footer__col">
+          <div class="footer__caption">Services</div>
+          <a class="footer__link" href="./service-1.html">A temporary residence permit in the Russian Federation</a>
+          <a class="footer__link" href="./service-2.html">A residence permit</a>
+          <a class="footer__link" href="./service-3.html">Citizenship of the Russian Federation</a>
+          <a class="footer__link" href="./service-4.html">Simplified citizenship of the Russian Federation</a>
+          <a class="footer__link" href="./service-5.html">Compatriot resettlement program</a>
+          <a class="footer__link" href="./service-6.html">Customer service</a>
+        </div>
+        <div class="footer__col">
+          <div class="footer__caption">Contacts</div>
+          <div class="footer__text">Mon – Fri: from 9:00 to 18:00</div>
+          <div class="footer__text">
+            Pochainskaya street, 17С, Nizhny&nbsp;Novgorod
+          </div>
+          <div class="footer__social">
+            <a class="footer__social-link link-tg" href="https://telegram.me/relocation_to_russia" target="_blank">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M0 15.3333C0 8.13333 0 4.46667 2.26667 2.26667C4.53333 0.0666668 8.13333 0 15.3333 0H16.6667C23.9333 0 27.5333 0 29.8 2.26667C32 4.46667 32 8.13333 32 15.3333V16.6667C32 23.9333 32 27.5333 29.7333 29.8C27.5333 32 23.8667 32 16.6667 32H15.3333C8.06667 32 4.46667 32 2.2 29.7333C0 27.5333 0 23.8667 0 16.6667V15.3333Z"
+                  fill="white" />
+                <path class="icon"
+                  d="M6.69689 15.396C6.69689 15.396 15.7624 11.6403 18.9354 10.3452C20.1657 9.82719 24.2452 8.14359 24.2452 8.14359C24.2452 8.14359 26.123 7.43129 25.9935 9.17965C25.9288 9.89194 25.5403 12.4821 25.087 15.2665C24.4394 19.2165 23.7919 23.4902 23.7919 23.4902C23.7919 23.4902 23.6624 24.7206 22.8206 24.9148C21.914 25.1091 20.4895 24.2025 20.1657 23.9435C19.9714 23.814 16.2157 21.4181 14.8559 20.2526C14.4673 19.9288 14.0788 19.2812 14.9206 18.569C16.7985 16.8206 19.0649 14.6837 20.4247 13.3239C21.0722 12.6764 21.655 11.2518 19.0649 13.0001C15.3091 15.5903 11.6829 17.9862 11.6829 17.9862C11.6829 17.9862 10.8411 18.5042 9.28704 18.0509C7.73295 17.5976 5.85509 16.9501 5.85509 16.9501C5.85509 16.9501 4.56001 16.2378 6.69689 15.396Z" />
+              </svg>
+            </a>
+            <a class="footer__social-link link-wa" href="https://wa.me/79300357823" target="_blank">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M0 15.3333C0 8.13333 0 4.46667 2.26667 2.26667C4.53333 0.0666668 8.13333 0 15.3333 0H16.6667C23.9333 0 27.5333 0 29.8 2.26667C32 4.46667 32 8.13333 32 15.3333V16.6667C32 23.9333 32 27.5333 29.7333 29.8C27.5333 32 23.8667 32 16.6667 32H15.3333C8.06667 32 4.46667 32 2.2 29.7333C0 27.5333 0 23.8667 0 16.6667V15.3333Z"
+                  fill="white" />
+                <g clip-path="url(#clip0_992_41)">
+                  <path class="icon"
+                    d="M7.07512 15.9186C7.07512 17.492 7.48412 19.0237 8.26455 20.38L7 25.0042L11.7285 23.7647C13.0306 24.4741 14.4997 24.8498 15.9937 24.8498C20.91 24.8498 24.9165 20.8474 24.9165 15.9311C24.9165 13.5481 23.99 11.307 22.304 9.62091C20.6262 7.93067 18.3851 7 15.9979 7C11.0816 7 7.07512 11.0023 7.07512 15.9186Z" />
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M13.7693 12.1918C13.6024 11.8204 13.4271 11.8121 13.2685 11.8079C13.1391 11.8037 12.9889 11.8037 12.8428 11.8037C12.6967 11.8037 12.4505 11.858 12.2502 12.0833C12.0457 12.3045 11.4698 12.8471 11.4698 13.9447C11.4698 15.0423 12.2669 16.1023 12.3796 16.2526C12.4922 16.4028 13.9237 18.7233 16.1899 19.6164C18.0721 20.3592 18.4561 20.2132 18.8651 20.1756C19.2741 20.138 20.1839 19.6372 20.3717 19.1156C20.5595 18.5939 20.5595 18.1473 20.5011 18.0555C20.4468 17.9637 20.2966 17.9053 20.0754 17.7968C19.8542 17.6841 18.7566 17.1457 18.5521 17.0706C18.3476 16.9955 18.1973 16.9579 18.0513 17.1833C17.901 17.4045 17.4753 17.9094 17.3459 18.0555C17.2166 18.2058 17.0872 18.2224 16.8618 18.1098C16.6406 17.9971 15.9186 17.7634 15.0673 17.0038C14.4037 16.4112 13.9571 15.685 13.8277 15.4596C13.6984 15.2384 13.8152 15.1174 13.9237 15.0047C14.0239 14.9046 14.1449 14.746 14.2576 14.6124C14.3703 14.4831 14.4079 14.3912 14.4788 14.241C14.5539 14.0907 14.5164 13.9614 14.4621 13.8487C14.4079 13.736 13.9738 12.6342 13.7735 12.1918"
+                    fill="white" />
+                </g>
+                <defs>
+                  <clipPath id="clip0_992_41">
+                    <rect width="17.9207" height="18" fill="white" transform="translate(7 7)" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__copyright">© 2024 «OKA» agency</div>
+    </div>
+  </footer>
+
+  <script src="./js/jquery-3.6.0.min.js"></script>
+  <script src="./js/swiper.min.js"></script>
+  <script src="./js/flatpickr.min.js"></script>
+  <script src="./js/flatpickr-ru.min.js"></script>
+  <script src="./js/jquery.dropdown.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
